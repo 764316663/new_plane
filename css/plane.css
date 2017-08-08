@@ -1,0 +1,111 @@
+#box {
+  width: 100%;
+  height: 100%;
+  min-height: 590px;
+}
+#box #boxmain {
+  width: 1000px;
+  height: 590px;
+  margin: 0 auto;
+}
+#box #boxmain #welcome {
+  width: 1000px;
+  height: 590px;
+  display: block;
+  position: relative;
+  background: url("http://a2.qpic.cn/psb?/V149fNWB1zLBHb/4M6WtkInkAEKv2OMcbbq.kKWMHdH7XaZrqv20HpJRVU!/b/dGkBAAAAAAAA&bo=wAOAAgAAAAABAGY!&rf=viewer_4") no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+#box #boxmain #welcome .weltitle {
+  width: 400px;
+  height: 100px;
+  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 90px;
+  color: orange;
+  line-height: 100px;
+}
+#box #boxmain #welcome .start_btn {
+  width: 200px;
+  height: 50px;
+  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 320px auto 0;
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+  line-height: 50px;
+  cursor: pointer;
+}
+#box #boxmain #playgame {
+  width: 1000px;
+  height: 590px;
+  display: none;
+  position: relative;
+  background: url('http://a2.qpic.cn/psb?/V149fNWB1zLBHb/081BMuTE1izMk62DAMGbrqXhz2ExWaXFoyXw..3mK*c!/b/dGkBAAAAAAAA&bo=wAOAAgAAAAABAGY!&rf=viewer_4') no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+#box #boxmain #playgame .playtitle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 5px;
+  color: orange;
+  z-index: 3;
+}
+#box #boxmain #playgame .pack {
+  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#box #boxmain #playgame .black {
+  width: 1000px;
+  height: 590px;
+  background: black;
+  filter: alpha(opacity=50);
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+}
+#box #boxmain #playgame .black .pasue_title {
+  width: 400px;
+  height: 100px;
+  margin: 100px auto;
+  color: orange;
+  font-size: 90px;
+  line-height: 100px;
+  text-align: center;
+}
+#box #boxmain #playgame .black .pasue_over {
+  color: orange;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  display: none;
+}
+#box #boxmain #playgame .black .pasue_over #f5 {
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  background: white;
+  background: rgba(255, 255, 255, 0.3);
+  color: orange;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
